@@ -4,12 +4,14 @@ __pycache__/
 *$py.class
 *.iml
 *.jpg
+*.sqlite3
 # C extensions
 *.so
 
 # Distribution / packaging
 .Python
-**/.idea/**
+
+**/.idea
 build/
 develop-eggs/
 dist/

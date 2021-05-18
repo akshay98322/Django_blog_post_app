@@ -114,7 +114,9 @@ LOGIN_REDIRECT_URL = 'blog-home'
 LOGIN_URL = 'login'
 
 
-# sending email
+"""sending email -> this functionality only works if u have saved username and password in OS's environment Variables
+Else u can hard code the username and password (although this is not a good practise)
+"""
 
 EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
 EMAIL_HOST = 'smtp.gmail.com'
